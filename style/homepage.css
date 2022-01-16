@@ -7,8 +7,9 @@
 
 body {
     height: 100vh;
-    background-image: url("https://4.bp.blogspot.com/-LwnIJ0O3CBo/XSRYOLHgkTI/AAAAAAAAEYE/c8wu3rt3_AAG9xR2Z9gslNPSt1NgzIGUwCKgBGAs/w0/marvel-ultimate-alliance-3-characters-uhdpaper.com-4K-46.jpg"), linear-gradient(black, red);
-    /* background-attachment: fixed; */
+    /* background-image: url("https://4.bp.blogspot.com/-LwnIJ0O3CBo/XSRYOLHgkTI/AAAAAAAAEYE/c8wu3rt3_AAG9xR2Z9gslNPSt1NgzIGUwCKgBGAs/w0/marvel-ultimate-alliance-3-characters-uhdpaper.com-4K-46.jpg"), linear-gradient(black, red); */
+    background-image: url("gameui.png");
+    background-attachment: fixed;
     background-size: 100%;
 }
 
@@ -16,7 +17,7 @@ nav {
     display: flex;
     justify-content: space-between;
     /* background-color: #9e64eb; */
-    height: 10vh;
+    height: 15vh;
     color: white;
 }
 
@@ -26,7 +27,7 @@ nav {
 }
 
 .title {
-    margin: 18px 0 18px 18px;
+    margin: 40px 0 80px 18px;
 }
 
 .options {
@@ -89,7 +90,7 @@ nav {
 }
 
 .riddleAnswer {
-    height: 20vh;
+    /* height: 20vh; */
     margin-top: 2rem;
 }
 
